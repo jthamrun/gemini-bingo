@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   generateButton.addEventListener("click", function () {
     var randomNumber;
     do {
-      randomNumber = Math.floor(Math.random() * 100) + 1;
+      randomNumber = Math.floor(Math.random() * 50) + 1;
     } while (blacklist.includes(randomNumber));
 
     randomNumberElement.textContent = randomNumber;
